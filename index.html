@@ -48,9 +48,29 @@
             </div>
           </div>
 
-          <div class="nav__item">
-            <button class="signin__button">Đăng nhập</button>
-          </div>
+          <div class="nav">
+            <div class="nav__item">
+                <button class="signin__button">Đăng nhập</button>
+            </div>
+        </div>
+    
+        <div id="login-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1>Đăng nhập</h1>
+                <form action="#">
+                    <div class="form-group">
+                        <label for="username">Tên đăng nhập:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Mật khẩu:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <button type="submit">Đăng nhập</button>
+                </form>
+            </div>
+        </div>
         </div>
       </nav>
     </header>
